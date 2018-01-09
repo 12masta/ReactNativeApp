@@ -1,4 +1,12 @@
+// import a library to help create a Component
+import React from 'react';
 import { AppRegistry } from 'react-native';
-import App from './App';
+import Header from './src/components/header';
 
+// create a  Component
+const App = () => (
+  <Header />
+);
+
+// Render it on device
 AppRegistry.registerComponent('albums', () => App);
